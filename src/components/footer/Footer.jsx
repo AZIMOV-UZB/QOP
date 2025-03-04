@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="bg-blue-700 h-[250px] w-full flex justify-center ">
 <div className="container" >
 <Image
-  className="w-[200px] h-[200px] my-5 footer__top"
+  className="w-[200px] h-[200px] my-5 footer__top mx-auto"
   src={logo} 
   alt="foto"
 />   
@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white">Foydali havolalar</h3>
             <ul className="mt-1 space-y-2">
-              <li><a href="banner" className="hover:text-white">Banner</a></li>
+              <li><a href="banner" className="hover:text-white"></a></li>
                          </ul>
           </div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
               <a target="_blank" href="tel:+998997872900" className="hover:text-green-500 text-xl"> 
                 <PiPhoneFill  className="text-4xl font-bold"/></a>
             <a target="_blank" href="https://maps.app.goo.gl/cYBKtcaM7pV7NT7f6" className="hover:text-red-600 text-xl"> 
-            <FaMapMarkerAlt  className="text-4xl font-bold ml-14 "/></a>              
+            <FaMapMarkerAlt  className="text-4xl font-bold"/></a>              
             </div>
           </div>
         </div>
