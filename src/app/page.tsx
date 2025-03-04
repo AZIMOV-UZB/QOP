@@ -3,11 +3,13 @@
 import dynamic from "next/dynamic";
 import Header from "@/components/header/component";
 import Carousel from "@/components/carusel/Carousel";
+import Shop from '@/components/shop/Shop';
+
 import Calendar from "@/components/calendar/Calendar";
 import Footer from "@/components/footer/Footer";
 
 // SSR'ni o‘chirish orqali komponentlarni faqat brauzerda yuklaymiz
-const Shop = dynamic(() => import("@/components/shop/Shop"), { ssr: false });
+// const Shop = dynamic(() => import("@/components/shop/Shop"), { ssr: false });
 const Map = dynamic(() => import("@/components/map/Map"), { ssr: false });
 const Jobs = dynamic(() => import("@/components/jobs/Jobs"), { ssr: false });
 
