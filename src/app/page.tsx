@@ -27,7 +27,7 @@ export default function Home() {
           SILOSNI SIFATLI SAQLASH UCHUN QOP
         </p>
         <p className="text-4xl font-bold my-6 text-white">
-ENI 70 SM BO'YI 150 SM
+ENI 70 SM BO'YI 150 SM NARX : 13 000 SO'M
         </p>
       </div>
       {/* <Shop /> */}
