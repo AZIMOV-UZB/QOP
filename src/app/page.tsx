@@ -23,10 +23,10 @@ export default function Home() {
       </div>
       <div className="container">
         <p className="text-5xl font-bold my-6 text-white">SILOS QOP</p>
-        <p className="title text-4xl font-bold my-6 text-white item">
+        <p className="title text-3xl font-bold my-6 text-white item">
           SILOSNI SIFATLI SAQLASH UCHUN QOP
         </p>
-        <p className="text-4xl font-bold my-6 text-white item">
+        <p className="text-3xl font-bold my-6 text-white item">
 ENI 70 SM BO'YI 150 SM NARX : 13 000 SO'M
         </p>
       </div>
