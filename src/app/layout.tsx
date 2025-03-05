@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SILOS QOP",
-  description: "Sifat va hamyon bob narxlar viz bilan",
+  description: "Sifat va hamyon bob narxlar biz bilan",
 };
 
 export default function RootLayout({
