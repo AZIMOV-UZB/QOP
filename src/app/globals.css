@@ -74,3 +74,16 @@ max-width: 1300px;
   border-radius: 50%;
 
 }
+
+
+
+@media (max-width: 500px) {
+  .foto{
+    height: 400px !important;
+  }
+  .carusel{
+    height: 400px;
+  }
+}
+
+
