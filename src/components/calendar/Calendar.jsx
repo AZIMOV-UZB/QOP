@@ -34,7 +34,7 @@ const Calendar = () => {
   };
 
   return (
-    <div className="o p-4 bg-white shadow-2xl rounded-2xl border border-gray-200 h-[700px]">
+    <div className="o p-2 bg-white shadow-2xl rounded-2xl border border-gray-200 h-[660px]">
       <div className="flex justify-between items-center mb-6">
         <button onClick={handlePrevMonth} className="p-2 rounded-full hover:bg-gray-200">
           <ChevronLeft className="w-6 h-6" />

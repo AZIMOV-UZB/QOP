@@ -18,7 +18,7 @@ const MyCarousel = () => {
   };
 
   return (
-    <div className="relative w-[700px] h-[700px] carusel">
+    <div className="relative w-[700px] h-[660px] carusel">
       {/* Oldinga va Orqaga tugmalar */}
       <button
         className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-blue-700 text-white p-2 rounded-full shadow-lg hover:bg-gray-800 z-10"
